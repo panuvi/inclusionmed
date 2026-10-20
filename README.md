@@ -31,7 +31,7 @@ Benchmarks will be assigned to cells based on the healthcare role they serve and
 
 | Dimension | Categories |
 | :--- | :--- |
-| **Role** | Patients & Families; Healthcare Professionals; Service & Administrative Staff |
+| **Role** | Patients & the public; Healthcare professionals; Healthcare organizations & health systems |
 | **AI Capability** | Knowledge; Reasoning; Execution |
 
 The proposal template uses these same two dimensions for Atlas placement.
@@ -51,7 +51,7 @@ Results should retain their original metrics, conditions and limitations. Missin
 | **Boards** | Compare model performance in [Index](https://panuvi.github.io/inclusionmed/#/observatory), and explore benchmarks by healthcare role and AI capability in [Atlas](https://panuvi.github.io/inclusionmed/#/atlas). |
 | **Commitment** | Read our [Mission](https://panuvi.github.io/inclusionmed/#/mission) to understand how people, healthcare roles and care settings shape medical AI evaluation. |
 | **Project** | See [Method](https://panuvi.github.io/inclusionmed/#/methodology) for benchmark classification and selection, or [Contribute](https://panuvi.github.io/inclusionmed/#/contribute) tasks, benchmarks and expertise. |
-| **About** | Read [About us](https://panuvi.github.io/inclusionmed/#/about) for project background, follow the [Changelog](https://panuvi.github.io/inclusionmed/#/changelog), or see [Contact](https://panuvi.github.io/inclusionmed/#/contact) for questions and feedback. |
+| **About** | Read [About us](https://panuvi.github.io/inclusionmed/#/about) for project background, follow the [Changelog](https://panuvi.github.io/inclusionmed/#/changelog), or email [info@inclusionmed.ai](mailto:info@inclusionmed.ai) for questions and feedback. |
 
 ## 📚 Resources
 
