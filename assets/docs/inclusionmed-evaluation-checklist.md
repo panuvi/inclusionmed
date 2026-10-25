@@ -6,7 +6,7 @@ Share only permitted outputs; keep patient identifiers, secrets and restricted d
 
 ## Task & data
 
-- Benchmark / task ID, proposal reference, task version, dataset version and source links:
+- Benchmark / task ID, submission reference, task version, dataset version and source links:
 - Input, output and interaction pattern (including any combination or custom format), format version (`0.1`) and any agreed deviations:
 - Included subsets, stable sample IDs, counts, splits, exclusions and overlap:
 - Format, field dictionary, units and missing-value conventions:

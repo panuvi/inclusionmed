@@ -1,8 +1,8 @@
 # Data and code baseline v0.1
 
-[Contribution guide](../../CONTRIBUTING.md)
+[Contribution guide](../CONTRIBUTING.md)
 
-Use this baseline when preparing materials for detailed review. An initial proposal can begin with a brief task description; an example is helpful if available. Existing benchmarks may retain upstream storage formats with a field mapping and adapter; document any agreed deviations.
+Use this baseline when preparing materials for detailed review. Start with a brief description through the [online form](https://inclusionmed.ai/#/contribute); an example is helpful if available. Existing benchmarks may retain upstream storage formats with a field mapping and adapter; document any agreed deviations.
 
 **Each task defines its own evaluation method.** Contributors document the evaluation goal, judgment criteria, metric meanings, calculation or decision procedure, and handling of failures, missing results and retries. Organizers review the professional basis, completeness and reproducibility. Each task determines its dimensions, scales, weights, thresholds and aggregation.
 
@@ -778,7 +778,7 @@ This configuration corresponds to the `mcq-demo-001` run record. Paths are relat
 
 ### Run commands
 
-Provide setup, data validation, small-trial, full-run and independent-scoring commands in the README. The following are suggested interfaces; contribution implementations must supply executable equivalents. This repository currently supplies specifications and templates only.
+Provide setup, data validation, small-trial, full-run and independent-scoring commands in the README. The following are suggested interfaces; contribution implementations must supply executable equivalents. This repository currently supplies specifications and examples only.
 
 ```bash
 python -m pip install -r requirements.lock
