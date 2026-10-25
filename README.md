@@ -1,4 +1,6 @@
-<h1 align="center">InclusionMed</h1>
+<h1 align="center">
+  <img src="assets/figures/inclusionmed-logo.png" alt="InclusionMed" width="440">
+</h1>
 
 <p align="center">
   <strong>Open Index. Inclusive Care.</strong>
