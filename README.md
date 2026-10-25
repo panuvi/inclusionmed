@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/figures/inclusionmed-logo.png" alt="InclusionMed" width="440">
+  <img src="assets/figures/inclusionmed-icon.svg" alt="" width="48" height="35"> InclusionMed
 </h1>
 
 <p align="center">
