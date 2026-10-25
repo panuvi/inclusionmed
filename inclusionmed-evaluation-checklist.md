@@ -6,7 +6,7 @@ Share only permitted outputs; keep patient identifiers, secrets and restricted d
 
 ## Task & data
 
-- Benchmark / task ID, proposal reference, task version, dataset version and source links:
+- Benchmark / task ID, submission reference, task version, dataset version and source links:
 - Input, output and interaction pattern (including any combination or custom format), format version (`0.1`) and any agreed deviations:
 - Included subsets, stable sample IDs, counts, splits, exclusions and overlap:
 - Format, field dictionary, units and missing-value conventions:
@@ -63,5 +63,5 @@ Check results against the task's documented evaluation method. Include scales, w
 - Organizer decision, date, release version / link and change log:
 - Required revisions, contributor responses, reviewer resolution and remaining action dates:
 
-See the [contribution guide](../../CONTRIBUTING.md) for the contribution and review process,
+See the [contribution guide](CONTRIBUTING.md) for the contribution and review process,
 and [Data and code baseline v0.1](task-format.md) for the expected record formats.
