@@ -1,9 +1,9 @@
-<h1 align="center">
-  <img src="assets/figures/inclusionmed-icon.svg" alt="" width="48" height="35"> InclusionMed
-</h1>
+<p align="center">
+  <img src="assets/figures/inclusionmed-banner.png" alt="InclusionMed" width="100%">
+</p>
 
 <p align="center">
-  <strong>Open Index. Inclusive Care.</strong>
+  <strong>Open index for inclusive health</strong>
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
   <a href="https://inclusionmed.ai/#/contribute"><img src="assets/figures/contribution-code-badge.svg" alt="Contribute — online form" height="30"></a>
 </p>
 
-**InclusionMed** is an open index connecting medical AI benchmarks to inclusive real-world care, shaped by and evolving with the community.
+**InclusionMed** is an open evaluation initiative for inclusive healthcare that brings together medical benchmarks to assess AI capabilities across healthcare roles.
 
 Explore the project on our **[homepage](https://inclusionmed.ai/)**. This repository brings together the project overview, contribution guide, data and code baseline, and evaluation-record checklist.
 
@@ -25,7 +25,7 @@ Start with the **[online form](https://inclusionmed.ai/#/contribute)**. We’ll 
 
 Medical AI fulfills its promise when better care reaches more people.
 
-InclusionMed connects medical AI evaluation to the people and circumstances that shape care. We are building this open index with the community to make clear what benchmarks measure and where evidence is missing.
+InclusionMed connects medical AI evaluation to the people and circumstances that shape care. Together, we are building an open index rooted in the communities it serves.
 
 ### Atlas
 
