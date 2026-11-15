@@ -1,89 +1,65 @@
-<h1 align="center">
-  <img src="assets/figures/inclusionmed-icon.svg" alt="" width="48" height="35"> InclusionMed
-</h1>
-
 <p align="center">
-  <strong>Open Index. Inclusive Care.</strong>
+  <img src="assets/brand/inclusionmed-logo-readme.png" alt="InclusionMed" width="480">
 </p>
 
 <p align="center">
-  <a href="https://inclusionmed.ai/"><img src="assets/figures/website-badge.svg" alt="Homepage" height="30"></a>&nbsp;
-  <a href="https://inclusionmed.ai/#/contribute"><img src="assets/figures/contribution-code-badge.svg" alt="Contribute — online form" height="30"></a>
+  <strong>Benchmarking AI for Inclusive Healthcare</strong>
 </p>
 
-**InclusionMed** is an open index connecting medical AI benchmarks to inclusive real-world care, shaped by and evolving with the community.
+<p align="center">
+  <a href="https://inclusionmed.ai/">Website</a> ·
+  <a href="#news">News</a> ·
+  <a href="#contributions">Contributions</a> ·
+  <a href="https://inclusionmed.ai/#/contribute">Contribution form</a> ·
+  <a href="https://github.com/panuvi/inclusionmed/blob/main/CONTRIBUTING.md">Contribution guide</a>
+</p>
 
-Explore the project on our **[homepage](https://inclusionmed.ai/)**. This repository brings together the project overview, contribution guide, data and code baseline, and evaluation-record checklist.
+**InclusionMed** is an open evaluation initiative for inclusive healthcare. Through successive releases of the Atlas and Index, this open collaboration aims to ensure that the diverse healthcare needs of people worldwide guide how progress in medical AI is defined and measured.
 
-## 📣 Call for Contributors
+The **InclusionMed Atlas** organizes benchmarks along two axes: healthcare role and AI capability. The role axis distinguishes patients and the public, healthcare professionals, and healthcare administration professionals; the capability axis distinguishes knowledge, reasoning, and agency. The Atlas design makes clear which healthcare needs are represented by the included benchmarks and where coverage remains limited.
 
-Share a benchmark, suggest a benchmark idea, request a correction, or explore an advisory role or partnership. **A brief description is enough to start.**
+The **InclusionMed Index** aggregates model results across the benchmarks included in the Atlas. In the initial release, each model's Index score is the equally weighted mean of its five benchmark scores. The Index also reports scores by healthcare role and AI capability, revealing differences in both model rankings and score levels.
 
-Start with the **[online form](https://inclusionmed.ai/#/contribute)**. We’ll review your message and follow up by email. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the two-step process.
+## News
 
-## 💥 Why InclusionMed?
+- **2026-11-16 (planned):** Release of the InclusionMed Technical Report.
 
-Medical AI fulfills its promise when better care reaches more people.
+## Rationale and principles
 
-InclusionMed connects medical AI evaluation to the people and circumstances that shape care. We are building this open index with the community to make clear what benchmarks measure and where evidence is missing.
+The meaning of an overall score depends on what the included benchmarks assess and whose needs they represent. For inclusive healthcare, this raises the question of how benchmarks can be selected and organized so that an index reflects diverse needs and supports comparisons relevant to different uses of medical AI.
 
-### Atlas
+We audit candidate benchmarks to assess their suitability for medical AI evaluation and their contribution to the InclusionMed benchmark portfolio. The same six criteria apply to public and private benchmarks:
 
-Benchmarks will be assigned to cells based on the healthcare role they serve and the AI capability they evaluate.
+1. **Healthcare relevance.** We assess whether a benchmark or its healthcare-relevant subset addresses identifiable healthcare needs or activities, based on task objectives and intended users.
+2. **Trustworthiness.** We review data provenance, benchmark construction, annotation, and scoring to assess whether reference standards and scoring criteria have a sound medical or professional basis and align with evaluation objectives. For example, we examine the methods and evidence used to establish ground truth and exclude benchmarks generated entirely by AI.
+3. **Availability and permitted use.** We assess the availability of evaluation resources, including tasks, scoring methods, code, and execution environments. We review documented access routes, restrictions, and licence terms to determine which resources can be used for evaluation.
+4. **Complementary coverage.** We assess whether a candidate adds value relative to the existing portfolio through its purpose, task design, or evaluation methods, including broader coverage of healthcare roles, AI capabilities, populations, languages, regions, or resource settings.
+5. **Timeliness and data independence.** We assess whether task content and reference standards remain applicable as guidelines, policies, and benchmark versions change. We review documented contamination and leakage safeguards and evidence of test-material exposure or reuse.
+6. **Discriminative capacity.** We assess whether benchmark scores distinguish model performance under comparable evaluation conditions. Using publicly reported results from the same benchmark version, we examine score distributions and differences between models. This initial assessment informs which candidate benchmarks proceed to independent reproduction.
 
-| Dimension | Categories |
-| :--- | :--- |
-| **Role** | Patients & the public; Healthcare professionals; Healthcare organizations & health systems |
-| **AI Capability** | Knowledge; Reasoning; Execution |
+Benchmark inclusion in the InclusionMed Atlas proceeds through collection, auditing and independent reproduction. Human review accompanies the audit throughout to ensure accurate assessments.
 
-### How evaluation should work
+## Contributions
 
-Tasks should be **relevant, credible, available, reproducible and complementary**, while addressing **representation gaps**. Medical references and scoring criteria require qualified human review. LLM-generated annotations must not serve as the reference standard.
+InclusionMed welcomes contributions from anyone interested in medical AI evaluation. Community input can reveal gaps in coverage, improve evaluation resources and help interpret results.
 
-Each evaluation should record the task and data version, model and setup, run conditions, scoring and review, results and uncertainty, and reproduction and credit. See the [evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md) and website [Method](https://inclusionmed.ai/#/methodology).
+### Ways to contribute
 
-Results should retain their original metrics, conditions and limitations. Missing results are not zero; combining different benchmarks requires an agreed method.
+- **Benchmark.** Contributors can share benchmarks, datasets or evaluation tools, describing what they assess and which materials are available. The team works with contributors on review, reproduction and revisions under the [assessment principles above](#rationale-and-principles). Accepted benchmarks are released with their scope and limitations.
+- **Benchmark idea.** Contributors can propose a healthcare question for a new benchmark, even without a dataset or evaluation method. The team helps clarify the need and develop an initial task. Any resulting benchmark follows the same review process.
+- **Correction.** Contributors can flag an Index entry and provide evidence for a correction. The team checks the evidence, discusses unresolved questions with the contributor and publishes verified corrections with their sources.
+- **Advisory & partnership.** Individuals can offer expert guidance, and organizations can propose partnerships. The team and contributors agree on the scope, roles and availability before confirming the collaboration.
 
-## 🔎 Explore InclusionMed
+### How to participate
 
-| Section | What you can find |
-| :--- | :--- |
-| **Boards** | Compare model performance in [Index](https://inclusionmed.ai/#/), and explore benchmarks by healthcare role and AI capability in [Atlas](https://inclusionmed.ai/#/atlas). |
-| **Commitment** | Read our [Mission](https://inclusionmed.ai/#/mission) to understand how people, healthcare roles and care settings shape medical AI evaluation. |
-| **Project** | See [Method](https://inclusionmed.ai/#/methodology) for benchmark classification and selection, or [Contribute](https://inclusionmed.ai/#/contribute) tasks, benchmarks and expertise. |
-| **About** | Read [About us](https://inclusionmed.ai/#/about) for project background, follow the [Changelog](https://inclusionmed.ai/#/changelog), or email [info@inclusionmed.ai](mailto:info@inclusionmed.ai) for questions and feedback. |
+1. **Submit a contribution form.** Open the **[Contribute page](https://inclusionmed.ai/#/contribute)** and complete the form to describe your contribution, provide contact details and relevant materials, and indicate any support needed.
+2. **Develop it together.** The team follows up by email to agree on next steps. Before publication or announcement, the team and contributor confirm the outcome and contribution credits.
 
-## 📚 Resources
+Further guidance is available in the **[contribution guide](CONTRIBUTING.md)**. Contributions and inquiries may also be sent to **[info@inclusionmed.ai](mailto:info@inclusionmed.ai)**.
 
-- [Contribution guide](CONTRIBUTING.md)
-- [Data and code baseline v0.1](assets/docs/task-format.md)
-- [Evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md)
+## Resources and contact
 
-## 🤝 Contributors
-
-<table width="100%">
-  <tr>
-    <th colspan="4" align="left">PROJECT INITIATORS</th>
-  </tr>
-  <tr>
-    <td colspan="4" align="left">Coming soon.</td>
-  </tr>
-  <tr>
-    <th colspan="4" align="left">ORGANIZERS</th>
-  </tr>
-  <tr>
-    <td colspan="4" align="left">Coming soon.</td>
-  </tr>
-  <tr>
-    <th colspan="4" align="left">ADVISORS</th>
-  </tr>
-  <tr>
-    <td colspan="4" align="left">Coming soon.</td>
-  </tr>
-  <tr>
-    <th colspan="4" align="left">TASK CONTRIBUTORS</th>
-  </tr>
-  <tr>
-    <td colspan="4" align="left">Coming soon.</td>
-  </tr>
-</table>
+- [Contribution guide](CONTRIBUTING.md) — submission and review procedures.
+- [Data and code baseline](assets/docs/task-format.md) — formats and documentation for benchmark materials.
+- [Evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md) — evaluation configuration, scoring and reporting requirements.
+- [InclusionMed website](https://inclusionmed.ai/) · [info@inclusionmed.ai](mailto:info@inclusionmed.ai)
