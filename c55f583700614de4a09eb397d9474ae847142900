@@ -1,0 +1,19 @@
+index.html
+  s_22acb2f993135b::t_fd4b6b5559ad67 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c55f583700614de4a09eb397d9474ae847142900",
+  "prompts": {},
+  "sessions": {
+    "s_22acb2f993135b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d846-82b6-7061-a096-5418a901a458",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "xinyuanzhu <zhuxinyuan.zxy@antgroup.com>"
+    }
+  }
+}
