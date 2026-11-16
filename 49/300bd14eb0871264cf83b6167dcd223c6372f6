@@ -1,0 +1,19 @@
+README.md
+  s_e551a6a557d3cd::t_71ab10225a496c 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "49300bd14eb0871264cf83b6167dcd223c6372f6",
+  "prompts": {},
+  "sessions": {
+    "s_e551a6a557d3cd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e25e-3af4-7981-b7f1-5b59581ce8da",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "xinyuanzhu <zhuxinyuan.zxy@antgroup.com>"
+    }
+  }
+}
