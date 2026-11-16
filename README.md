@@ -22,7 +22,7 @@ The **InclusionMed Index** aggregates model results across the benchmarks includ
 
 ## News
 
-- **2026-11-16 (planned):** Release of the InclusionMed Technical Report.
+- **2026-11-16:** Release of the InclusionMed Technical Report.
 
 ## Rationale and principles
 
