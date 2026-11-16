@@ -24,6 +24,28 @@ The **InclusionMed Index** aggregates model results across the benchmarks includ
 
 - **2026-11-16:** Release of the InclusionMed Technical Report.
 
+## Current release
+
+The current release evaluates 22 models on five benchmarks. Explore the [interactive Atlas and Index](https://inclusionmed.ai/) for benchmark details, model profiles and results.
+
+### InclusionMed Atlas
+
+[![InclusionMed Atlas showing the five included benchmarks across healthcare roles and AI capabilities](assets/readme/inclusionmed-atlas.png)](assets/readme/inclusionmed-atlas.pdf)
+
+Hatched cells indicate gaps in the current portfolio; † denotes a private benchmark.
+
+### Overall InclusionMed Index
+
+[![Overall InclusionMed Index scores for all 22 evaluated models](assets/readme/overall-index.png)](assets/readme/overall-index.pdf)
+
+The Overall Index is the equally weighted mean of the five benchmark scores. Higher scores indicate stronger performance on the current portfolio. [Explore the rankings](https://inclusionmed.ai/#/index/overall).
+
+### Cost–performance frontier
+
+[![Overall InclusionMed Index versus estimated inference cost, with the observed Pareto frontier](assets/readme/cost-performance.png)](assets/readme/cost-performance.pdf)
+
+Scores and mean costs per task run are averaged equally across the five benchmarks. Costs are estimated from recorded token usage and published prices, in USD on a logarithmic axis. Open circles and the dashed line mark the observed Pareto frontier. [Explore the interactive chart](https://inclusionmed.ai/#intelligence-cost).
+
 ## Rationale and principles
 
 The meaning of an overall score depends on what the included benchmarks assess and whose needs they represent. For inclusive healthcare, this raises the question of how benchmarks can be selected and organized so that an index reflects diverse needs and supports comparisons relevant to different uses of medical AI.
