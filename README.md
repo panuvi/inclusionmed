@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://inclusionmed.ai/">Website</a> ·
+  <a href="https://arxiv.org/abs/2611.21218">Paper</a> ·
   <a href="#news">News</a> ·
   <a href="#contributions">Contributions</a> ·
   <a href="https://inclusionmed.ai/#/contribute">Contribution form</a> ·
@@ -22,7 +23,7 @@ The **InclusionMed Index** aggregates model results across the benchmarks includ
 
 ## News
 
-- **2026-11-16:** Release of the InclusionMed Technical Report.
+- **2026-11-16:** Release of the [InclusionMed Technical Report](https://arxiv.org/pdf/2611.21218).
 
 ## Current release
 
