@@ -1,0 +1,19 @@
+index.html
+  s_364715b7fbd60e::t_837e7286d6a42c 1-3,5-7,9,11-14,17-26,33,37,40,43,47,50-78,81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a80aa9af61d36260ee81519476c01db72427814f",
+  "prompts": {},
+  "sessions": {
+    "s_364715b7fbd60e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e85c-921d-70a2-9161-80cca916b8ed",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "xinyuanzhu <zhuxinyuan.zxy@antgroup.com>"
+    }
+  }
+}
