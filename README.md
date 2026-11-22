@@ -23,29 +23,30 @@ The **InclusionMed Index** aggregates model results across the benchmarks includ
 
 ## News
 
+- **2026-11-22:** [LingSante-3.1-flash](https://inclusionmed.ai/#/models?id=ling31flashsante) from Ant Group joins the InclusionMed Index, ranking fifth overall with a score of **45.1** and joining the observed performance–cost Pareto frontier.
 - **2026-11-16:** Release of the [InclusionMed Technical Report](https://arxiv.org/pdf/2611.21218).
 
 ## Current release
 
-The current release evaluates 22 models on five benchmarks. Explore the [interactive Atlas and Index](https://inclusionmed.ai/) for benchmark details, model profiles and results.
+The current release evaluates 23 models on five benchmarks. Explore the [interactive Atlas and Index](https://inclusionmed.ai/) for benchmark details, model profiles and results.
 
 ### InclusionMed Atlas
 
-[![InclusionMed Atlas showing the five included benchmarks across healthcare roles and AI capabilities](assets/readme/inclusionmed-atlas.png)](assets/readme/inclusionmed-atlas.pdf)
+[![InclusionMed Atlas showing the five included benchmarks across healthcare roles and AI capabilities](assets/readme/inclusionmed-atlas.png)](assets/readme/inclusionmed-atlas.png)
 
 Hatched cells indicate gaps in the current portfolio; † denotes a private benchmark.
 
 ### Overall InclusionMed Index
 
-[![Overall InclusionMed Index scores for all 22 evaluated models](assets/readme/overall-index.png)](assets/readme/overall-index.pdf)
+[![Overall InclusionMed Index scores for all 23 evaluated models](assets/readme/overall-index.png)](assets/readme/overall-index.png)
 
 The Overall Index is the equally weighted mean of the five benchmark scores. Higher scores indicate stronger performance on the current portfolio. [Explore the rankings](https://inclusionmed.ai/#/index/overall).
 
 ### Cost–performance frontier
 
-[![Overall InclusionMed Index versus estimated inference cost, with the observed Pareto frontier](assets/readme/cost-performance.png)](assets/readme/cost-performance.pdf)
+[![Overall InclusionMed Index versus estimated inference cost, with the observed Pareto frontier](assets/readme/cost-performance.png)](assets/readme/cost-performance.png)
 
-Scores and mean costs per task run are averaged equally across the five benchmarks. Costs are estimated from recorded token usage and published prices, in USD on a logarithmic axis. Open circles and the dashed line mark the observed Pareto frontier. [Explore the interactive chart](https://inclusionmed.ai/#intelligence-cost).
+Scores and mean costs per task run are averaged equally across the five benchmarks. Costs are estimated from recorded token usage and published prices, in USD on a logarithmic axis. Colors identify model providers; the dotted line connects models on the observed Pareto frontier. [Explore the interactive chart](https://inclusionmed.ai/#/#intelligence-cost).
 
 ## Rationale and principles
 
